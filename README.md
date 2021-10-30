@@ -22,8 +22,7 @@ The data is generated used a modified version of [ARCSim](http://graphics.berkel
 | *conf* | ARCSim configuration | 
 
 ## Extract meshes
-**Requirements**: ```python3```, ```numpy-1.21.3```, 
-```h5py-3.5.0```
+**Requirements**: ```python3```, ```numpy-1.21.3```
 
 To extract the simulated garment meshes as ```.obj``` run the following script:
 ```

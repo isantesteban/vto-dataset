@@ -9,7 +9,7 @@ This repository contains the dataset used in the following papers:
 
 ![Teaser](teaser.gif "Teaser image")
 
-The data is generated used a modified version of [ARCSim](http://graphics.berkeley.edu/resources/ARCSim/) and sequences from the [CMU Motion Capture Database](http://mocap.cs.cmu.edu/). Each simulated sequence is stored as a ```.pkl``` file that contains the following data:
+The data is generated used a modified version of [ARCSim](http://graphics.berkeley.edu/resources/ARCSim/) and sequences from the [CMU Motion Capture Database](http://mocap.cs.cmu.edu/) converted to SMPL format in [SURREAL](https://www.di.ens.fr/willow/research/surreal/data/). Each simulated sequence is stored as a ```.pkl``` file that contains the following data:
 
 | Key      | Description                        | Dimension                     |
 |----------|------------------------------------|-------------------------------|

@@ -43,6 +43,11 @@ To extract the simulated garment meshes as ```.obj``` run the following script:
 python extract_meshes.py tshirt/simulations/tshirt_shape00_01_01.pkl
 ```
 
+Same for the dress:
+```
+python extract_meshes.py dress/simulations/dress_shape00_01_01.pkl
+```
+
 ## Citation
 
 If you find this dataset useful please cite our work:

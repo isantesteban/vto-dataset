@@ -34,7 +34,8 @@ if __name__ == "__main__":
     with open(args.data_path, "rb") as f:
         data = pickle.load(f)
 
-        export_dir = f"tshirt/meshes/{data['subject']}/{data['sequence']}"
+        garment = os.path.basename(args.data_path).split("_")[0]
+        export_dir = f"{garment}/meshes/{data['subject']}/{data['sequence']}"
         os.makedirs(export_dir, exist_ok=True)
 
         num_frames = data['vertices'].shape[0]
